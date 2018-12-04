@@ -1,0 +1,40 @@
+ @charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 3
+   
+   Layout Style Sheet for A Soldier's Scrapbook
+   Author: Brett F
+   Date: 12/4/2018
+   
+   Filename: Projects.css
+
+*/
+
+/* Project Page Styles */
+p{
+  color: white;
+}
+
+/* Text Link Styles */
+nav#ProjectList{
+  color: rgba(237,47,215, 0.9);
+  text-align: left;
+}
+
+nav#ProjectList a{
+  color: red;
+}
+
+nav#ProjectList a:visited{
+  color: purple;
+}
+
+nav#ProjectList a:hover{
+  color: white;
+}
+
+
+  
