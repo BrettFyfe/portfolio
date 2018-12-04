@@ -1,0 +1,17 @@
+ @charset "utf-8";
+ /*
+   Author: Brett F
+   Date: 12/4/2018
+   
+   Filename: Index.css
+
+*/
+/*Text Styles*/
+
+h1{
+  font-size:1.8em;
+}
+
+p{
+  font-size: 1.4em;
+}
