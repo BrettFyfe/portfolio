@@ -22,6 +22,7 @@ p{
 nav#ProjectList{
   color: rgba(237,47,215, 0.9);
   text-align: left;
+  letter-spacing: 0.1em;
 }
 
 nav#ProjectList a{
