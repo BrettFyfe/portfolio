@@ -1,0 +1,27 @@
+ 
+ /*
+   Author: Brett F
+   Date: 12/4/2018
+   
+   Filename: Index.css
+
+*/
+ 
+ /*Blockquote Styles */
+ blockquote{
+   color:white;
+ }
+ 
+blockquote:before {
+    content: open-quote;
+}
+blockquote:after {
+    content: close-quote;
+}
+
+/*Paragraph Styles */
+
+p{
+  font-size: 1.2em;
+  margin-left: 40px;
+}

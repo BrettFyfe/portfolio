@@ -1,0 +1,25 @@
+ /*
+   Author: Brett F
+   Date: 12/4/2018
+   
+   Filename: SkillsInterests.css
+
+*/
+ 
+ /* half and half image style*/
+html{
+    background: url(background.jpg) bottom right/ 50% no-repeat content-box,
+                url(background2.jpg) bottom left/50% no-repeat content-box;
+    
+}
+
+/*Text Styles to go along with the images*/
+p{
+  color: black;
+}
+
+p#footer{
+  margin-top: 450px;
+  color: black;
+  text-align: left;
+}
