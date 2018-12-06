@@ -57,12 +57,16 @@ h2{
   text-align: center;
 }
 
+img#Face{
+  width: 30%
+}
+  
 p{
   color: white;
   font-size: 1.4em;
 }
 
 p#footer{
-  margin-top: 400px;
+  margin-top: 100px;
   text-align: center;
 }

@@ -34,8 +34,38 @@ nav#ProjectList a:visited{
 }
 
 nav#ProjectList a:hover{
-  color: white;
+  color: red;
+}
+/*Webpage Style */
+html{
+  background: url(project.jpg) center/ 100% no-repeat content-box;
 }
 
+img{
+   opacity: 0.2;
+}
 
-  
+/* Paragraph and Aside section styles */
+aside{
+  float: left;
+}
+
+p#top{
+  color: black;
+}
+
+p#BalloonPopper{
+  color: black;
+  font-size: 1.2em;
+  clear: left;
+}
+
+p#Program{
+  font-size: 1.2em;
+  color: black;
+}
+
+p#HTML{
+  font-size: 1.2em;
+  color: black
+}
