@@ -13,6 +13,10 @@
 
 */
 
+/*Special Link Styles*/
+nav#Table a:hover{
+    color: red;
+}
 /* Project Page Styles */
 p{
   color: white;
@@ -28,7 +32,6 @@ nav#ProjectList{
 nav#ProjectList a{
   color: red;
 }
-
 nav#ProjectList a:visited{
   color: purple;
 }
@@ -68,4 +71,18 @@ p#Program{
 p#HTML{
   font-size: 1.2em;
   color: black
+}
+
+/* Mobile Styles*/
+@media only screen and (max-width:480px) {
+  nav#ProjectList a{
+    color: red;
+ } 
+ nav#ProjectList a:visited{
+   color: red;
+ }
+ 
+ nav#ProjectList a:hover{
+   color: black;
+ }
 }

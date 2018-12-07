@@ -48,17 +48,20 @@ h1{
   color: white;
   text-align: center;
   letter-spacing: 0.1em;
-  font-family: Dobkin, sans-serif;
+  font-family: DobkinPlain;
 }
 
 h2{
   font-size: 1.5em;
   color: white;
   text-align: center;
+  font-family: DobkinPlain;
 }
 
 img#Face{
-  width: 30%
+  width: 30%;
+  box-shadow: red 10px 0px 10px;
+  border-radius: 25px;
 }
   
 p{
@@ -67,6 +70,21 @@ p{
 }
 
 p#footer{
-  margin-top: 100px;
+  margin-top: 40px;
   text-align: center;
+}
+
+/* Mobile Styles*/
+@media only screen and (max-width:480px) {
+ html{
+   background-color: gray;
+   height: 100%;
+   width: 100%;
+ }
+ 
+ img#Face{
+   width: 100%;
+   box-shadow: red 10px 0px 10px;
+   border-radius: 25px;
+  }
 }

@@ -6,6 +6,11 @@
 
 */
  
+ /*Special Link Styles*/
+table a:hover{
+    color: red;
+}
+
  /* half and half image style*/
 html{
     background: url(background.jpg) bottom right/ 50% no-repeat content-box,
