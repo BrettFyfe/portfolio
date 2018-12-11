@@ -25,3 +25,9 @@ p{
   font-size: 1.2em;
   margin-left: 40px;
 }
+
+/* Image Styles */
+img#Hugh{
+  height: 10%;
+  width: 10%;
+}

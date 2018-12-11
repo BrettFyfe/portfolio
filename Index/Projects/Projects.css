@@ -22,6 +22,18 @@ p{
   color: white;
 }
 
+img{
+  width: 50%;
+}
+/* Figure Styles */
+figcaption{
+  color: white;
+}
+  
+img:hover{
+  transform: scale(2);
+}
+
 /* Text Link Styles */
 nav#ProjectList{
   color: rgba(237,47,215, 0.9);
@@ -39,10 +51,7 @@ nav#ProjectList a:visited{
 nav#ProjectList a:hover{
   color: red;
 }
-/*Webpage Style */
-html{
-  background: url(project.jpg) center/ 100% no-repeat content-box;
-}
+/*Webpage Styles */
 
 img{
    opacity: 0.2;
@@ -54,23 +63,23 @@ aside{
 }
 
 p#top{
-  color: black;
+  color: white;
 }
 
 p#BalloonPopper{
-  color: black;
+  color: white;
   font-size: 1.2em;
   clear: left;
 }
 
 p#Program{
   font-size: 1.2em;
-  color: black;
+  color: white;
 }
 
 p#HTML{
   font-size: 1.2em;
-  color: black
+  color: white;
 }
 
 /* Mobile Styles*/
