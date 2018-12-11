@@ -82,6 +82,11 @@ p#HTML{
   color: white;
 }
 
+/* bottom of the page table styles */
+caption{
+  color: white;
+}
+
 /* Mobile Styles*/
 @media only screen and (max-width:480px) {
   nav#ProjectList a{
@@ -93,5 +98,17 @@ p#HTML{
  
  nav#ProjectList a:hover{
    color: black;
+ }
+ 
+ caption{
+   display: none;
+ }
+ 
+ a:link{
+   font-size: 2em;
+ }
+ 
+table#Links{
+   width: 100%;
  }
 }
