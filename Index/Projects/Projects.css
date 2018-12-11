@@ -89,6 +89,9 @@ caption{
 
 /* Mobile Styles*/
 @media only screen and (max-width:480px) {
+  table#Links{
+   width: 100%;
+ }
   nav#ProjectList a{
     color: red;
  } 
@@ -100,15 +103,27 @@ caption{
    color: black;
  }
  
- caption{
-   display: none;
- }
- 
  a:link{
    font-size: 2em;
  }
+  
+caption{
+   font-size: 2em;
+ }
+ img{
+   display: none;
+ }
  
-table#Links{
+ p{
+   font-size: 3em;
    width: 100%;
+ }
+ 
+ p#Program{
+   font-size: 3em;
+ }
+ 
+ p#BalloonPopper{
+   font-size: 3em;
  }
 }
