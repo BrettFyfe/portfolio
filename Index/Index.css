@@ -88,3 +88,28 @@ p#footer{
    border-radius: 25px;
   }
 }
+
+/*Tablet Styles*/
+@media only screen and (min-width:481px) {
+ html{
+   font-size: 2em;
+  } 
+  img#Face{
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(10deg) translateY(10px);
+    float: right;
+  }
+}
+
+/*Desktop Styles*/
+@media only screen and (min-width:769px){
+  html{
+    font-size: 1em;
+  }
+  
+  img#Face{
+    float: none;
+    transform: rotate(0deg) TranslateY(0px);
+  }
+}

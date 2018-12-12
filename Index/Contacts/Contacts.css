@@ -6,6 +6,11 @@
    Filename: Index.css
 
 */
+ /*Header Styles*/
+h1{
+  font-size: 2em;
+  letter-spacing: 0em;
+}
  
  /* Paragraph Styles */
  p{

@@ -6,7 +6,12 @@
    Filename: Index.css
 
 */
- 
+ /*Header Styles*/
+ h1{
+  font-size: 2em;
+  letter-spacing: 0em;
+}
+
  /*Blockquote Styles */
  blockquote{
    color:white;
@@ -30,4 +35,18 @@ p{
 img#Hugh{
   height: 10%;
   width: 10%;
+}
+
+/*Tablet Styles*/
+@media only screen and (min-width:481px){
+  img#Hugh{
+    height: 20%;
+    width: 20%;
+}
+
+/*Desktop Styles*/
+@media only screen and (min-width:769px){
+  img#Hugh{
+    height: 10%;
+    width: 10%;
 }

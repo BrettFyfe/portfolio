@@ -28,3 +28,10 @@ p#footer{
   color: black;
   text-align: left;
 }
+
+/*Header Styles*/
+h1{
+  color: black;
+  font-size: 2em;
+  letter-spacing: 0em;
+}
