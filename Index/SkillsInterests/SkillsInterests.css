@@ -5,22 +5,25 @@
    Filename: SkillsInterests.css
 
 */
- 
  /*Special Link Styles*/
 table a:hover{
     color: red;
 }
 
  /* half and half image style*/
-html{
+body{
     background: url(background.jpg) bottom right/ 50% no-repeat content-box,
                 url(background2.jpg) bottom left/50% no-repeat content-box;
+    background-color: black;
+    width: 70%;
+    height: 100%;
     
 }
 
 /*Text Styles to go along with the images*/
 p{
-  color: black;
+  color: white;
+  font-size: 1.5em;
 }
 
 p#footer{
@@ -31,7 +34,12 @@ p#footer{
 
 /*Header Styles*/
 h1{
-  color: black;
+  color: white;
   font-size: 2em;
   letter-spacing: 0em;
+}
+
+/*Footer Styles*/
+p#footer{
+  color: red;
 }

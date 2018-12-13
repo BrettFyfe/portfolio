@@ -3,15 +3,22 @@
    Author: Brett F
    Date: 12/4/2018
    
-   Filename: Index.css
+   Filename: Education.css
 
 */
-/*Text Styles*/
 
+/*Header Styles*/
 h1{
   font-size:1.8em;
 }
 
+/*Text Styles*/
 p{
   font-size: 1.4em;
+}
+
+/*Image Styles*/
+img{
+  height:20%;
+  width:20%;
 }
