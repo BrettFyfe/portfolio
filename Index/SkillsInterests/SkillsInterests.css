@@ -10,15 +10,6 @@ table a:hover{
     color: red;
 }
 
- /* half and half image style*/
-body{
-    background: url(background.jpg) bottom right/ 50% no-repeat content-box,
-                url(background2.jpg) bottom left/50% no-repeat content-box;
-    background-color: black;
-    width: 70%;
-    height: 100%;
-    
-}
 
 /*Text Styles to go along with the images*/
 p{
@@ -42,4 +33,29 @@ h1{
 /*Footer Styles*/
 p#footer{
   color: red;
+  order:100;
 }
+/*Phone Styles*/
+@media only screen and (max-width: 480px){
+ p#footer{
+   display: none;
+ }
+}
+/*Tablet Styles*/
+@media only screen and (min-width:481px) {
+  p#footer{
+    display: none;
+    
+  }
+}
+/*Desktop Styles*/
+@media only screen and (min-width:769px){
+  body{
+    background: url(background.jpg) bottom right/ 50% no-repeat content-box,
+                url(background2.jpg) bottom left/50% no-repeat content-box;
+    background-color: black;
+    width: 70%;
+    height: 100%;
+    
+}
+} 
